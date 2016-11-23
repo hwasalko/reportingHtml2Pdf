@@ -1,0 +1,244 @@
+<html>
+	<head>
+		<style>
+			
+			* {
+				font-family : batang;
+				font-size : 14px;
+				line-height: 1.5em;
+			}
+			
+			.fontcolorOrange {
+				color: #FF6600;
+			}
+			
+			.fontsize10{
+				font-size: 10px;
+			}
+			
+			
+			.alignC {
+				text-align : center;
+			}
+			
+			.alignR {
+				text-align : right;
+			}
+			
+			.fontsize11 {
+				font-size : 11px;
+			}
+			
+			.fontFamilyGulim{
+				font-family : gulim;
+			}
+			
+			.fontFamilyDotum{
+				font-family : Dotum;
+			}
+						
+		</style>
+	</head>
+	
+	<body>
+		
+		<table width="100%">
+			<tr>
+				<td align="right"><img src="#ROOT_PATH#/krx_logo.png" /></td>
+			</tr>
+			<tr height="10">
+				<td></td>
+			</tr>
+		</table>
+		
+		
+		<table cellpadding="10" cellspacing="0" width="100%">
+			<tr>
+				<td style="border-top: 1px solid black;" class="fontFamilyGulim">수 신</td>
+				<td style="border-top: 1px solid black;" class="fontFamilyGulim">#send#</td>
+			</tr>
+			<tr>
+				<td style="border-top : 1px solid black; border-bottom : 2px solid black;" class="fontFamilyGulim">제 목</td>
+				<td style="border-top : 1px solid black; border-bottom : 2px solid black;" class="fontFamilyGulim">#ba#년도(후불제) 연부과금 부과통지</td>
+			</tr>
+		</table>
+		
+		
+		<table width="85%" align="center" >
+			<tr height="30">
+				<td width="20"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td align="right" >1.</td>
+				<td valign="top" >귀사의 일익 번창하심을 기원합니다.</td>
+			</tr>
+			<tr height="20">
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td align="right" valign="top" >2.</td>
+				<td>유가증권시장상장규정 제 158조 및 동규정시행세칙 제128조의 규정에 따라 상장증권 발행인에 대한 #ba#년도 연부과금(후불제)을 다음과 같이 부과 및 통지하고자 합니다.</td>
+			</tr>
+			<tr height="20">
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		
+		
+		<table width="85%" align="center" cellspacing="0" cellpadding="7">
+			<tr>
+				<td width="5"></td>
+				<td width="5"></td>
+				<td></td>
+				<td></td>
+				<td width="50"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td colspan="4">#ba#년도 연부과금</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;권</td>
+				<td align="right">#stkcertAnulfee#</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>수&nbsp;&nbsp;익&nbsp;&nbsp;증&nbsp;&nbsp;권</td>
+				<td align="right">#benfcertAnulfee#</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>신주인수권증권</td>
+				<td align="right">#subsrghtAnulfee#</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>주식워런트증권</td>
+				<td align="right">#elwAnulfee#</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td colspan="3">-------------------------------------------</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>합&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;계(원)</td>
+				<td align="right">#anulfeeTotal#</td>
+				<td></td>
+			</tr>
+			<tr height="10">
+				<td colspan="5"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td class="fontsize11" colspan="3">* 상장공시제출시스템(http://filing.krx.co.kr)상 '고객지원'-'온라인발급'-'연부과금'</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td  colspan="3" >
+				
+					<table cellspacing="0" cellpadding="3" width="100%">
+						<tr height="5"><td width="110"></td><td></td></tr>
+						<tr>
+							<td>납 부 기 한 : </td>
+							<td>#payDeadlineDd#</td>
+						</tr>
+						<tr height="15"><td></td><td></td></tr>
+						<tr>
+							<td>납 부 방 법 : </td>
+							<td>#anulfeePayMethdDsc#</td>
+						</tr>
+						<tr height="10"><td></td><td></td></tr>
+						<tr>
+							<td></td>
+							<td class="fontcolorOrange">
+								* 무통장입금 및 계좌이체 방법으로 납부<br/>
+								* 이체 및 송금 수수료는 별도임
+							</td>
+						</tr>
+						<tr height="10"><td></td><td></td></tr>
+						<tr>
+							<td colspan="2">연부과금 산출 근거</td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td colspan="4" align="center">
+				
+						 <table cellpadding="5" cellspacing="0"  width="100%" style="border-collapse: collapse;" border="1">
+							<tr>
+								<td class="alignC" width="50%">12월말 일평균시가총액(원)</td>
+								<td class="alignC" width="30%">납부금액(원)</td>
+								<td class="alignC" width="20%">비 고</td>
+							</tr>
+							<tr>
+								<td class="alignR">#avgMktCap#</td>
+								<td class="alignR">#paySunlfee#</td>
+								<td class="alignC">#remk#</td>
+							</tr>
+						</table>
+						
+				</td>
+			</tr>
+		</table>
+		
+		<table align="center" width="100%">
+			<tr height="30"><td width="50%"></td><td width="50%"></td></tr>
+			<tr>
+				<td align="right" width="50%">
+						<div style="height : 100px; padding-top : 40px; font-size: 23px; font-weight : bold; text-align: right;" class="fontFamilyGulim">한국거래소</div>
+				</td>
+				<td align="left" width="50%">
+					<div style="height : 100px; padding-top : 40px; font-size: 23px; font-weight : bold; background-image: url('#ROOT_PATH#/sign.png'); background-repeat: no-repeat; background-position: right; text-align: left;" class="fontFamilyGulim">이사장</div>
+				</td>
+			</tr>
+			<tr height="30"><td width="50%"></td><td width="50%"></td></tr>
+		</table>
+		
+		
+		
+		<table cellpadding="5" cellspacing="0" width="100%">
+			<tr>
+				<td class="fontsize10 fontFamilyDotum" style="border-top: 3px solid black" width="40%">협&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;조</td>
+				<td class="fontsize10 fontFamilyDotum" style="border-top: 3px solid black" width="35%"></td>
+				<td class="fontsize10 fontFamilyDotum" style="border-top: 3px solid black" width="25%"></td>
+			</tr>
+			<tr>
+				<td class="fontsize10 fontFamilyDotum">감&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사</td>
+				<td class="fontsize10 fontFamilyDotum" colspan="2">감사번호 : </td>
+			</tr>
+			<tr>
+				<td class="fontsize10 fontFamilyDotum">시행일자 : #anulfeeEnf#</td>
+				<td class="fontsize10 fontFamilyDotum">접수번호 : </td>
+				<td class="fontsize10 fontFamilyDotum">접수일자(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</td>
+			</tr>
+			<tr>
+				<td class="fontsize10 fontFamilyDotum" colspan="3">150-977 서울시 영등포구 여의도동 33번지 공시총괄팀</td>
+			</tr>
+			<tr>
+				<td class="fontsize10 fontFamilyDotum" colspan="3">문의사항 : 개별 상장기업의 거래소 공시담당자에게 문의 바랍니다.</td>
+			</tr>
+		</table>
+		
+	</body>
+	
+</html>
